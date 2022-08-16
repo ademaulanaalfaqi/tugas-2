@@ -47,7 +47,7 @@
                             <nav>
                                 <div class="ltn__main-menu">
                                     <ul>
-                                        <li><a href="#home">Home</a>
+                                        <li><a href="{{url('landing')}}">Home</a>
                                         </li>
                                         <li><a href="#product">Products</a>
                                         </li>
@@ -125,7 +125,7 @@
                 </div>
                 <div class="mini-cart-item clearfix">
                     <div class="mini-cart-img">
-                        <a href="#"><img src="{{url('public/landing')}}/img/product/15.png" alt="Image"></a>
+                        <a href="#"><img src="{{url('public/landing')}}/img/product/5.jpg" alt="Image"></a>
                         <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                     </div>
                     <div class="mini-cart-info">
@@ -135,17 +135,17 @@
                 </div>
                 <div class="mini-cart-item clearfix">
                     <div class="mini-cart-img">
-                        <a href="#"><img src="{{url('public/landing')}}/img/product/9.png" alt="Image"></a>
+                        <a href="#"><img src="{{url('public/landing')}}/img/product/4.jpg" alt="Image"></a>
                         <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                     </div>
                     <div class="mini-cart-info">
-                        <h6><a href="#">Original Smart Phone for Original for iPhone 6s</a></h6>
+                        <h6><a href="#">Headphone Wireless Portable Bluetooth Headset Bass Handsfree Earph.</a></h6>
                         <span class="mini-cart-quantity">1 x $92.00</span>
                     </div>
                 </div>
                 <div class="mini-cart-item clearfix">
                     <div class="mini-cart-img">
-                        <a href="#"><img src="{{url('public/landing')}}/img/product/4.jpg" alt="Image"></a>
+                        <a href="#"><img src="{{url('public/landing')}}/img/product/3.jpg" alt="Image"></a>
                         <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                     </div>
                     <div class="mini-cart-info">
@@ -186,7 +186,7 @@
             </div>
             <div class="ltn__utilize-menu">
                 <ul>
-                    <li><a href="#home">Home</a>
+                    <li><a href="{{url('landing')}}">Home</a>
                     </li>
                     <li><a href="#product">Product</a>
                     </li>
@@ -256,7 +256,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
+                                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -265,7 +265,7 @@
                                                 <div class="product-hover-action">
                                                     <ul>
                                                         <li>
-                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_1">
                                                                 <i class="far fa-eye"></i>
                                                             </a>
                                                         </li>
@@ -278,7 +278,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-info">
-                                                <h2 class="product-title"><a href="product-details.html">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W </a></h2>
+                                                <h2 class="product-title"><a href="{{url('detail')}}">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W </a></h2>
                                                 <div class="product-price">
                                                     <span>$149.00</span>
                                                     <del>$162.00</del>
@@ -290,7 +290,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/2.jpg" alt="#"></a>
+                                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/2.jpg" alt="#"></a>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -299,7 +299,7 @@
                                                 <div class="product-hover-action">
                                                     <ul>
                                                         <li>
-                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_2">
                                                                 <i class="far fa-eye"></i>
                                                             </a>
                                                         </li>
@@ -312,7 +312,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-info">
-                                                <h2 class="product-title"><a href="product-details.html">Samsung C49J89: £875, Debenhams Plus</a></h2>
+                                                <h2 class="product-title"><a href="{{url('detail')}}">Samsung C49J89: £875, Debenhams Plus</a></h2>
                                                 <div class="product-price">
                                                     <span>$129.00</span>
                                                     <del>$145.00</del>
@@ -324,7 +324,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/3.jpg" alt="#"></a>
+                                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/3.jpg" alt="#"></a>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -333,7 +333,7 @@
                                                 <div class="product-hover-action">
                                                     <ul>
                                                         <li>
-                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_3">
                                                                 <i class="far fa-eye"></i>
                                                             </a>
                                                         </li>
@@ -346,7 +346,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-info">
-                                                <h2 class="product-title"><a href="product-details.html">Capacitive 22 Inch LCD Display Monitor</a></h2>
+                                                <h2 class="product-title"><a href="{{url('detail')}}">Capacitive 22 Inch LCD Display Monitor</a></h2>
                                                 <div class="product-price">
                                                     <span>$119.00</span>
                                                 </div>
@@ -357,7 +357,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/4.jpg" alt="#"></a>
+                                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/4.jpg" alt="#"></a>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -366,7 +366,7 @@
                                                 <div class="product-hover-action">
                                                     <ul>
                                                         <li>
-                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_4">
                                                                 <i class="far fa-eye"></i>
                                                             </a>
                                                         </li>
@@ -379,7 +379,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-info">
-                                                <h2 class="product-title"><a href="product-details.html">Headphone Wireless Portable Bluetooth Headset Bass Handsfree Earph.</a></h2>
+                                                <h2 class="product-title"><a href="{{url('detail')}}">Headphone Wireless Portable Bluetooth Headset Bass Handsfree Earph.</a></h2>
                                                 <div class="product-price">
                                                     <span>$125.00</span>
                                                     <del>$140.00</del>
@@ -391,7 +391,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/5.png" alt="#"></a>
+                                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/5.jpg" alt="#"></a>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -400,7 +400,7 @@
                                                 <div class="product-hover-action">
                                                     <ul>
                                                         <li>
-                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_5">
                                                                 <i class="far fa-eye"></i>
                                                             </a>
                                                         </li>
@@ -413,7 +413,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-info">
-                                                <h2 class="product-title"><a href="product-details.html">Original Smart Phone for Original for iPhone 6s</a></h2>
+                                                <h2 class="product-title"><a href="{{url('detail')}}">Original Smart Phone for Original for iPhone 6s</a></h2>
                                                 <div class="product-price">
                                                     <span>$165.00</span>
                                                     <del>$185.00</del>
@@ -432,7 +432,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/3.jpg" alt="#"></a>
+                                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/3.jpg" alt="#"></a>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -441,7 +441,7 @@
                                                 <div class="product-hover-action">
                                                     <ul>
                                                         <li>
-                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_3">
                                                                 <i class="far fa-eye"></i>
                                                             </a>
                                                         </li>
@@ -454,7 +454,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-info">
-                                                <h2 class="product-title"><a href="product-details.html">Capacitive 22 Inch LCD Display Monitor</a></h2>
+                                                <h2 class="product-title"><a href="{{url('detail')}}">Capacitive 22 Inch LCD Display Monitor</a></h2>
                                                 <div class="product-price">
                                                     <span>$119.00</span>
                                                 </div>
@@ -465,7 +465,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/4.jpg" alt="#"></a>
+                                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/4.jpg" alt="#"></a>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -474,7 +474,7 @@
                                                 <div class="product-hover-action">
                                                     <ul>
                                                         <li>
-                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_4">
                                                                 <i class="far fa-eye"></i>
                                                             </a>
                                                         </li>
@@ -487,7 +487,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-info">
-                                                <h2 class="product-title"><a href="product-details.html">Headphone Wireless Portable Bluetooth Headset Bass Handsfree Earph.</a></h2>
+                                                <h2 class="product-title"><a href="{{url('detail')}}">Headphone Wireless Portable Bluetooth Headset Bass Handsfree Earph.</a></h2>
                                                 <div class="product-price">
                                                     <span>$125.00</span>
                                                     <del>$140.00</del>
@@ -499,7 +499,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
+                                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -508,7 +508,7 @@
                                                 <div class="product-hover-action">
                                                     <ul>
                                                         <li>
-                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_1">
                                                                 <i class="far fa-eye"></i>
                                                             </a>
                                                         </li>
@@ -521,7 +521,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-info">
-                                                <h2 class="product-title"><a href="product-details.html">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W </a></h2>
+                                                <h2 class="product-title"><a href="{{url('detail')}}">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W </a></h2>
                                                 <div class="product-price">
                                                     <span>$149.00</span>
                                                     <del>$162.00</del>
@@ -533,7 +533,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/2.jpg" alt="#"></a>
+                                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/2.jpg" alt="#"></a>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -542,7 +542,7 @@
                                                 <div class="product-hover-action">
                                                     <ul>
                                                         <li>
-                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_2">
                                                                 <i class="far fa-eye"></i>
                                                             </a>
                                                         </li>
@@ -555,7 +555,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-info">
-                                                <h2 class="product-title"><a href="product-details.html">Samsung C49J89: £875, Debenhams Plus</a></h2>
+                                                <h2 class="product-title"><a href="{{url('detail')}}">Samsung C49J89: £875, Debenhams Plus</a></h2>
                                                 <div class="product-price">
                                                     <span>$129.00</span>
                                                     <del>$145.00</del>
@@ -567,7 +567,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/5.png" alt="#"></a>
+                                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/5.png" alt="#"></a>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -576,7 +576,7 @@
                                                 <div class="product-hover-action">
                                                     <ul>
                                                         <li>
-                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_5">
                                                                 <i class="far fa-eye"></i>
                                                             </a>
                                                         </li>
@@ -589,7 +589,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-info">
-                                                <h2 class="product-title"><a href="product-details.html">Original Smart Phone for Original for iPhone 6s</a></h2>
+                                                <h2 class="product-title"><a href="{{url('detail')}}">Original Smart Phone for Original for iPhone 6s</a></h2>
                                                 <div class="product-price">
                                                     <span>$165.00</span>
                                                     <del>$185.00</del>
@@ -608,7 +608,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/4.jpg" alt="#"></a>
+                                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/4.jpg" alt="#"></a>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -617,7 +617,7 @@
                                                 <div class="product-hover-action">
                                                     <ul>
                                                         <li>
-                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_4">
                                                                 <i class="far fa-eye"></i>
                                                             </a>
                                                         </li>
@@ -630,7 +630,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-info">
-                                                <h2 class="product-title"><a href="product-details.html">Headphone Wireless Portable Bluetooth Headset Bass Handsfree Earph.</a></h2>
+                                                <h2 class="product-title"><a href="{{url('detail')}}">Headphone Wireless Portable Bluetooth Headset Bass Handsfree Earph.</a></h2>
                                                 <div class="product-price">
                                                     <span>$125.00</span>
                                                     <del>$140.00</del>
@@ -642,7 +642,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/5.png" alt="#"></a>
+                                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/5.png" alt="#"></a>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -651,7 +651,7 @@
                                                 <div class="product-hover-action">
                                                     <ul>
                                                         <li>
-                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_5">
                                                                 <i class="far fa-eye"></i>
                                                             </a>
                                                         </li>
@@ -664,7 +664,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-info">
-                                                <h2 class="product-title"><a href="product-details.html">Original Smart Phone for Original for iPhone 6s</a></h2>
+                                                <h2 class="product-title"><a href="{{url('detail')}}">Original Smart Phone for Original for iPhone 6s</a></h2>
                                                 <div class="product-price">
                                                     <span>$165.00</span>
                                                     <del>$185.00</del>
@@ -676,7 +676,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
+                                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -685,7 +685,7 @@
                                                 <div class="product-hover-action">
                                                     <ul>
                                                         <li>
-                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_1">
                                                                 <i class="far fa-eye"></i>
                                                             </a>
                                                         </li>
@@ -698,7 +698,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-info">
-                                                <h2 class="product-title"><a href="product-details.html">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W </a></h2>
+                                                <h2 class="product-title"><a href="{{url('detail')}}">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W </a></h2>
                                                 <div class="product-price">
                                                     <span>$149.00</span>
                                                     <del>$162.00</del>
@@ -710,7 +710,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/2.jpg" alt="#"></a>
+                                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/2.jpg" alt="#"></a>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -719,7 +719,7 @@
                                                 <div class="product-hover-action">
                                                     <ul>
                                                         <li>
-                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_2">
                                                                 <i class="far fa-eye"></i>
                                                             </a>
                                                         </li>
@@ -732,7 +732,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-info">
-                                                <h2 class="product-title"><a href="product-details.html">Samsung C49J89: £875, Debenhams Plus</a></h2>
+                                                <h2 class="product-title"><a href="{{url('detail')}}">Samsung C49J89: £875, Debenhams Plus</a></h2>
                                                 <div class="product-price">
                                                     <span>$129.00</span>
                                                     <del>$145.00</del>
@@ -744,7 +744,7 @@
                                     <div class="col-lg-12">
                                         <div class="ltn__product-item ltn__product-item-3 text-center">
                                             <div class="product-img">
-                                                <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/3.jpg" alt="#"></a>
+                                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/3.jpg" alt="#"></a>
                                                 <div class="product-badge">
                                                     <ul>
                                                         <li class="sale-badge">New</li>
@@ -753,7 +753,7 @@
                                                 <div class="product-hover-action">
                                                     <ul>
                                                         <li>
-                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_3">
                                                                 <i class="far fa-eye"></i>
                                                             </a>
                                                         </li>
@@ -766,7 +766,7 @@
                                                 </div>
                                             </div>
                                             <div class="product-info">
-                                                <h2 class="product-title"><a href="product-details.html">Capacitive 22 Inch LCD Display Monitor</a></h2>
+                                                <h2 class="product-title"><a href="{{url('detail')}}">Capacitive 22 Inch LCD Display Monitor</a></h2>
                                                 <div class="product-price">
                                                     <span>$119.00</span>
                                                 </div>
@@ -793,7 +793,7 @@
                         <h5 class="text-uppercase">Versatile. powerful. perfect.</h5>
                         <h1>ABC LC991 Trimmer</h1>
                         <div class="btn-wrapper">
-                            <a class="theme-btn-1 btn btn-effect-1 text-uppercase" href="shop.html">View More</a>
+                            <a class="theme-btn-1 btn btn-effect-1 text-uppercase" href="{{url('login')}}">View More</a>
                         </div>
                     </div>
                 </div>
@@ -818,7 +818,7 @@
                 <div class="col-lg-12">
                     <div class="ltn__product-item ltn__product-item-3 text-center">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
                             <div class="product-badge">
                                 <ul>
                                     <li class="sale-badge">New</li>
@@ -827,7 +827,7 @@
                             <div class="product-hover-action">
                                 <ul>
                                     <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_1">
                                             <i class="far fa-eye"></i>
                                         </a>
                                     </li>
@@ -836,15 +836,11 @@
                                             <i class="fas fa-shopping-cart"></i>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="#" title="Wishlist" data-toggle="modal" data-target="#liton_wishlist_modal">
-                                            <i class="far fa-heart"></i></a>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-info">
-                            <h2 class="product-title"><a href="product-details.html">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W </a></h2>
+                            <h2 class="product-title"><a href="{{url('detail')}}">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W </a></h2>
                             <div class="product-price">
                                 <span>$149.00</span>
                                 <del>$162.00</del>
@@ -856,7 +852,7 @@
                 <div class="col-lg-12">
                     <div class="ltn__product-item ltn__product-item-3 text-center">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/2.jpg" alt="#"></a>
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/2.jpg" alt="#"></a>
                             <div class="product-badge">
                                 <ul>
                                     <li class="sale-badge">New</li>
@@ -865,7 +861,7 @@
                             <div class="product-hover-action">
                                 <ul>
                                     <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_2">
                                             <i class="far fa-eye"></i>
                                         </a>
                                     </li>
@@ -874,15 +870,11 @@
                                             <i class="fas fa-shopping-cart"></i>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="#" title="Wishlist" data-toggle="modal" data-target="#liton_wishlist_modal">
-                                            <i class="far fa-heart"></i></a>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-info">
-                            <h2 class="product-title"><a href="product-details.html">Samsung C49J89: £875, Debenhams Plus</a></h2>
+                            <h2 class="product-title"><a href="{{url('detail')}}">Samsung C49J89: £875, Debenhams Plus</a></h2>
                             <div class="product-price">
                                 <span>$129.00</span>
                                 <del>$145.00</del>
@@ -894,7 +886,7 @@
                 <div class="col-lg-12">
                     <div class="ltn__product-item ltn__product-item-3 text-center">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/3.jpg" alt="#"></a>
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/3.jpg" alt="#"></a>
                             <div class="product-badge">
                                 <ul>
                                     <li class="sale-badge">New</li>
@@ -903,7 +895,7 @@
                             <div class="product-hover-action">
                                 <ul>
                                     <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_3">
                                             <i class="far fa-eye"></i>
                                         </a>
                                     </li>
@@ -912,15 +904,11 @@
                                             <i class="fas fa-shopping-cart"></i>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="#" title="Wishlist" data-toggle="modal" data-target="#liton_wishlist_modal">
-                                            <i class="far fa-heart"></i></a>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-info">
-                            <h2 class="product-title"><a href="product-details.html">Capacitive 22 Inch LCD Display Monitor</a></h2>
+                            <h2 class="product-title"><a href="{{url('detail')}}">Capacitive 22 Inch LCD Display Monitor</a></h2>
                             <div class="product-price">
                                 <span>$119.00</span>
                             </div>
@@ -931,7 +919,7 @@
                 <div class="col-lg-12">
                     <div class="ltn__product-item ltn__product-item-3 text-center">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/4.jpg" alt="#"></a>
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/4.jpg" alt="#"></a>
                             <div class="product-badge">
                                 <ul>
                                     <li class="sale-badge">New</li>
@@ -940,7 +928,7 @@
                             <div class="product-hover-action">
                                 <ul>
                                     <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_4">
                                             <i class="far fa-eye"></i>
                                         </a>
                                     </li>
@@ -949,15 +937,11 @@
                                             <i class="fas fa-shopping-cart"></i>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="#" title="Wishlist" data-toggle="modal" data-target="#liton_wishlist_modal">
-                                            <i class="far fa-heart"></i></a>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-info">
-                            <h2 class="product-title"><a href="product-details.html">Headphone Wireless Portable Bluetooth Headset Bass Handsfree Earph.</a></h2>
+                            <h2 class="product-title"><a href="{{url('detail')}}">Headphone Wireless Portable Bluetooth Headset Bass Handsfree Earph.</a></h2>
                             <div class="product-price">
                                 <span>$125.00</span>
                                 <del>$140.00</del>
@@ -969,7 +953,7 @@
                 <div class="col-lg-12">
                     <div class="ltn__product-item ltn__product-item-3 text-center">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/15.png" alt="#"></a>
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/5.jpg" alt="#"></a>
                             <div class="product-badge">
                                 <ul>
                                     <li class="sale-badge">New</li>
@@ -978,7 +962,7 @@
                             <div class="product-hover-action">
                                 <ul>
                                     <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal_5">
                                             <i class="far fa-eye"></i>
                                         </a>
                                     </li>
@@ -987,15 +971,11 @@
                                             <i class="fas fa-shopping-cart"></i>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="#" title="Wishlist" data-toggle="modal" data-target="#liton_wishlist_modal">
-                                            <i class="far fa-heart"></i></a>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-info">
-                            <h2 class="product-title"><a href="product-details.html">Portable Watch Phone with Blood Pressure Monitor OLED</a></h2>
+                            <h2 class="product-title"><a href="{{url('detail')}}">Portable Watch Phone with Blood Pressure Monitor OLED</a></h2>
                             <div class="product-price">
                                 <span>$165.00</span>
                                 <del>$185.00</del>
@@ -1212,7 +1192,7 @@
                                 </form>
                             </div>
                             <h5 class="mt-30">We Accept</h5>
-                            <img src="{{url('public/landing')}}/img/icons/payment-4.jpg" alt="Payment Image">
+                            <img src="{{url('public/landing')}}/img/icons/payment-4.png" alt="Payment Image">
                         </div>
                     </div>
                 </div>
@@ -1241,9 +1221,324 @@
     </footer>
     <!-- FOOTER AREA END -->
 
-    <!-- MODAL AREA START (Quick View Modal) -->
+    <!-- MODAL AREA START (Quick View Modal) 1 -->
     <div class="ltn__modal-area ltn__quick-view-modal-area">
-        <div class="modal fade" id="quick_view_modal" tabindex="-1">
+        <div class="modal fade" id="quick_view_modal_1" tabindex="-1">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            <!-- <i class="fas fa-times"></i> -->
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                         <div class="ltn__quick-view-modal-inner">
+                             <div class="modal-product-item">
+                                <div class="row">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="modal-product-img">
+                                            <img src="{{url('public/landing')}}/img/product/1.jpg" alt="#">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="modal-product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li class="review-total"> <a href="#"> ( 95 Reviews )</a></li>
+                                                </ul>
+                                            </div>
+                                            <h3>Brand new product</h3>
+                                            <div class="product-price">
+                                                <span>$149.00</span>
+                                                <del>$165.00</del>
+                                            </div>
+                                            <div class="ltn__product-details-menu-2">
+                                                <ul>
+                                                    <li>
+                                                        <div class="cart-plus-minus">
+                                                            <input type="text" value="02" name="qtybutton" class="cart-plus-minus-box">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="theme-btn-1 btn btn-effect-1" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                            <span>ADD TO CART</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <hr>
+                                            <div class="ltn__social-media">
+                                                <ul>
+                                                    <li>Share:</li>
+                                                    <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                                                    <li><a href="#" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                                                    <li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MODAL AREA END -->
+
+    <!-- MODAL AREA START (Quick View Modal) 2 -->
+    <div class="ltn__modal-area ltn__quick-view-modal-area">
+        <div class="modal fade" id="quick_view_modal_2" tabindex="-1">
+            <div class="modal-dialog modal-lg" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                            <!-- <i class="fas fa-times"></i> -->
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                         <div class="ltn__quick-view-modal-inner">
+                             <div class="modal-product-item">
+                                <div class="row">
+                                    <div class="col-lg-6 col-12">
+                                        <div class="modal-product-img">
+                                            <img src="{{url('public/landing')}}/img/product/2.jpg" alt="#">
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="modal-product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li class="review-total"> <a href="#"> ( 95 Reviews )</a></li>
+                                                </ul>
+                                            </div>
+                                            <h3>Brand new product</h3>
+                                            <div class="product-price">
+                                                <span>$149.00</span>
+                                                <del>$165.00</del>
+                                            </div>
+                                            <div class="ltn__product-details-menu-2">
+                                                <ul>
+                                                    <li>
+                                                        <div class="cart-plus-minus">
+                                                            <input type="text" value="02" name="qtybutton" class="cart-plus-minus-box">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="theme-btn-1 btn btn-effect-1" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                            <span>ADD TO CART</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <hr>
+                                            <div class="ltn__social-media">
+                                                <ul>
+                                                    <li>Share:</li>
+                                                    <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                                                    <li><a href="#" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                                                    <li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                             </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- MODAL AREA END -->
+
+    <!-- MODAL AREA START (Quick View Modal) 3 -->
+    <div class="ltn__modal-area ltn__quick-view-modal-area">
+            <div class="modal fade" id="quick_view_modal_3" tabindex="-1">
+                <div class="modal-dialog modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                                <!-- <i class="fas fa-times"></i> -->
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="ltn__quick-view-modal-inner">
+                                <div class="modal-product-item">
+                                    <div class="row">
+                                        <div class="col-lg-6 col-12">
+                                            <div class="modal-product-img">
+                                                <img src="{{url('public/landing')}}/img/product/3.jpg" alt="#">
+                                            </div>
+                                        </div>
+                                        <div class="col-lg-6 col-12">
+                                            <div class="modal-product-info">
+                                                <div class="product-ratting">
+                                                    <ul>
+                                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                        <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                        <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                        <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                        <li class="review-total"> <a href="#"> ( 95 Reviews )</a></li>
+                                                    </ul>
+                                                </div>
+                                                <h3>Brand new product</h3>
+                                                <div class="product-price">
+                                                    <span>$149.00</span>
+                                                    <del>$165.00</del>
+                                                </div>
+                                                <div class="ltn__product-details-menu-2">
+                                                    <ul>
+                                                        <li>
+                                                            <div class="cart-plus-minus">
+                                                                <input type="text" value="02" name="qtybutton" class="cart-plus-minus-box">
+                                                            </div>
+                                                        </li>
+                                                        <li>
+                                                            <a href="#" class="theme-btn-1 btn btn-effect-1" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                                <i class="fas fa-shopping-cart"></i>
+                                                                <span>ADD TO CART</span>
+                                                            </a>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                                <hr>
+                                                <div class="ltn__social-media">
+                                                    <ul>
+                                                        <li>Share:</li>
+                                                        <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                                        <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                                                        <li><a href="#" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                                                        <li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                                                        
+                                                    </ul>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MODAL AREA END -->
+    
+        <!-- MODAL AREA START (Add To Cart Modal) -->
+        <div class="ltn__modal-area ltn__add-to-cart-modal-area">
+            <div class="modal fade" id="add_to_cart_modal" tabindex="-1">
+                <div class="modal-dialog modal-md" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="ltn__quick-view-modal-inner">
+                                <div class="modal-product-item">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="modal-product-img">
+                                                <img src="{{url('public/landing')}}/img/product/1.jpg" alt="#">
+                                            </div>
+                                            <div class="modal-product-info">
+                                                <h5><a href="{{url('detail')}}">Brand new product</a></h5>
+                                                <p class="added-cart"><i class="fa fa-check-circle"></i>  Successfully added to your Cart</p>
+                                                <div class="btn-wrapper">
+                                                    <a href="cart.html" class="theme-btn-1 btn btn-effect-1">View Cart</a>
+                                                    <a href="checkout.html" class="theme-btn-2 btn btn-effect-2">Checkout</a>
+                                                </div>
+                                            </div>
+                                            <!-- additional-info -->
+                                            <div class="additional-info d-none">
+                                                <p>We want to give you <b>10% discount</b> for your first order, <br>  Use discount code at checkout</p>
+                                                <div class="payment-method">
+                                                    <img src="{{url('public/landing')}}/img/icons/payment.png" alt="#">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MODAL AREA END -->
+
+        <!-- MODAL AREA START (Wishlist Modal) -->
+        <div class="ltn__modal-area ltn__add-to-cart-modal-area">
+            <div class="modal fade" id="liton_wishlist_modal" tabindex="-1">
+                <div class="modal-dialog modal-md" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div class="ltn__quick-view-modal-inner">
+                                <div class="modal-product-item">
+                                    <div class="row">
+                                        <div class="col-12">
+                                            <div class="modal-product-img">
+                                                <img src="{{url('public/landing')}}/img/product/7.png" alt="#">
+                                            </div>
+                                            <div class="modal-product-info">
+                                                <h5><a href="{{url('detail')}}">Brand new product</a></h5>
+                                                <p class="added-cart"><i class="fa fa-check-circle"></i>  Successfully added to your Wishlist</p>
+                                                <div class="btn-wrapper">
+                                                    <a href="wishlist.html" class="theme-btn-1 btn btn-effect-1">View Wishlist</a>
+                                                </div>
+                                            </div>
+                                            <!-- additional-info -->
+                                            <div class="additional-info d-none">
+                                                <p>We want to give you <b>10% discount</b> for your first order, <br>  Use discount code at checkout</p>
+                                                <div class="payment-method">
+                                                    <img src="{{url('public/landing')}}/img/icons/payment.png" alt="#">
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- MODAL AREA END -->
+
+    </div>
+    <!-- Body main wrapper end -->    
+
+    <!-- MODAL AREA START (Quick View Modal) 4 -->
+    <div class="ltn__modal-area ltn__quick-view-modal-area">
+        <div class="modal fade" id="quick_view_modal_4" tabindex="-1">
             <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
@@ -1316,39 +1611,70 @@
     </div>
     <!-- MODAL AREA END -->
 
-    <!-- MODAL AREA START (Add To Cart Modal) -->
-    <div class="ltn__modal-area ltn__add-to-cart-modal-area">
-        <div class="modal fade" id="add_to_cart_modal" tabindex="-1">
-            <div class="modal-dialog modal-md" role="document">
+    <!-- MODAL AREA START (Quick View Modal) 5 -->
+    <div class="ltn__modal-area ltn__quick-view-modal-area">
+        <div class="modal fade" id="quick_view_modal_5" tabindex="-1">
+            <div class="modal-dialog modal-lg" role="document">
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true">&times;</span>
+                            <!-- <i class="fas fa-times"></i> -->
                         </button>
                     </div>
                     <div class="modal-body">
                          <div class="ltn__quick-view-modal-inner">
                              <div class="modal-product-item">
                                 <div class="row">
-                                    <div class="col-12">
+                                    <div class="col-lg-6 col-12">
                                         <div class="modal-product-img">
-                                            <img src="{{url('public/landing')}}/img/product/1.jpg" alt="#">
+                                            <img src="{{url('public/landing')}}/img/product/5.jpg" alt="#">
                                         </div>
-                                         <div class="modal-product-info">
-                                            <h5><a href="product-details.html">Brand new product</a></h5>
-                                            <p class="added-cart"><i class="fa fa-check-circle"></i>  Successfully added to your Cart</p>
-                                            <div class="btn-wrapper">
-                                                <a href="cart.html" class="theme-btn-1 btn btn-effect-1">View Cart</a>
-                                                <a href="checkout.html" class="theme-btn-2 btn btn-effect-2">Checkout</a>
+                                    </div>
+                                    <div class="col-lg-6 col-12">
+                                        <div class="modal-product-info">
+                                            <div class="product-ratting">
+                                                <ul>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
+                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
+                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
+                                                    <li class="review-total"> <a href="#"> ( 95 Reviews )</a></li>
+                                                </ul>
                                             </div>
-                                         </div>
-                                         <!-- additional-info -->
-                                         <div class="additional-info d-none">
-                                            <p>We want to give you <b>10% discount</b> for your first order, <br>  Use discount code at checkout</p>
-                                            <div class="payment-method">
-                                                <img src="{{url('public/landing')}}/img/icons/payment.png" alt="#">
+                                            <h3>Brand new product</h3>
+                                            <div class="product-price">
+                                                <span>$149.00</span>
+                                                <del>$165.00</del>
                                             </div>
-                                         </div>
+                                            <div class="ltn__product-details-menu-2">
+                                                <ul>
+                                                    <li>
+                                                        <div class="cart-plus-minus">
+                                                            <input type="text" value="02" name="qtybutton" class="cart-plus-minus-box">
+                                                        </div>
+                                                    </li>
+                                                    <li>
+                                                        <a href="#" class="theme-btn-1 btn btn-effect-1" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                            <i class="fas fa-shopping-cart"></i>
+                                                            <span>ADD TO CART</span>
+                                                        </a>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                            <hr>
+                                            <div class="ltn__social-media">
+                                                <ul>
+                                                    <li>Share:</li>
+                                                    <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
+                                                    <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
+                                                    <li><a href="#" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
+                                                    <li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
+                                                    
+                                                </ul>
+                                            </div>
+                                        </div>
                                     </div>
                                 </div>
                              </div>
@@ -1359,52 +1685,6 @@
         </div>
     </div>
     <!-- MODAL AREA END -->
-
-    <!-- MODAL AREA START (Wishlist Modal) -->
-    <div class="ltn__modal-area ltn__add-to-cart-modal-area">
-        <div class="modal fade" id="liton_wishlist_modal" tabindex="-1">
-            <div class="modal-dialog modal-md" role="document">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                         <div class="ltn__quick-view-modal-inner">
-                             <div class="modal-product-item">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <div class="modal-product-img">
-                                            <img src="{{url('public/landing')}}/img/product/7.png" alt="#">
-                                        </div>
-                                         <div class="modal-product-info">
-                                            <h5><a href="product-details.html">Brand new product</a></h5>
-                                            <p class="added-cart"><i class="fa fa-check-circle"></i>  Successfully added to your Wishlist</p>
-                                            <div class="btn-wrapper">
-                                                <a href="wishlist.html" class="theme-btn-1 btn btn-effect-1">View Wishlist</a>
-                                            </div>
-                                         </div>
-                                         <!-- additional-info -->
-                                         <div class="additional-info d-none">
-                                            <p>We want to give you <b>10% discount</b> for your first order, <br>  Use discount code at checkout</p>
-                                            <div class="payment-method">
-                                                <img src="{{url('public/landing')}}/img/icons/payment.png" alt="#">
-                                            </div>
-                                         </div>
-                                    </div>
-                                </div>
-                             </div>
-                         </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- MODAL AREA END -->
-
-</div>
-<!-- Body main wrapper end -->    
 
     <!-- preloader area start -->
     <div class="preloader d-none" id="preloader">
