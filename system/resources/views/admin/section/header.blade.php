@@ -28,7 +28,7 @@
             <i class="fa fa-cog"></i> Setting
           </a>
           <div class="dropdown-divider"></div>
-          <a href="{{url('loginmin')}}" class="dropdown-item">
+          <a href="{{url('login')}}" class="dropdown-item">
            Logout
           </a>
         </div>

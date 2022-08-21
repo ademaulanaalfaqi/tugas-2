@@ -49,7 +49,9 @@
                                     <ul>
                                         <li><a href="{{url('landing')}}">Home</a>
                                         </li>
-                                        <li><a href="#product">Products</a>
+                                        <li><a href="{{url('product')}}">Products</a>
+                                        </li>
+                                        <li><a href="{{url('category')}}">Category</a>
                                         </li>
                                         <li><a href="{{url('login')}}">Sign In</a></li>
                                         <li><a href="{{url('register')}}">Register</a></li>

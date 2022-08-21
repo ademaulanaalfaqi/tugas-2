@@ -49,7 +49,8 @@
                                     <ul>
                                         <li><a href="{{url('landing')}}">Home</a>
                                         </li>
-                                        <li><a href="{{url('product')}}">Product</a></li>
+                                        <li><a href="{{url('product')}}">Products</a>
+                                        </li>
                                         <li><a href="{{url('category')}}">Category</a>
                                         </li>
                                         <li><a href="{{url('login')}}">Sign In</a></li>
@@ -120,33 +121,33 @@
                         <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                     </div>
                     <div class="mini-cart-info">
-                        <h6><a href="#">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W </a></h6>
+                        <h6><a href="#">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W</a></h6>
                         <span class="mini-cart-quantity">1 x $65.00</span>
                     </div>
                 </div>
                 <div class="mini-cart-item clearfix">
                     <div class="mini-cart-img">
-                        <a href="#"><img src="{{url('public/landing')}}/img/product/5.jpg" alt="Image"></a>
+                        <a href="#"><img src="{{url('public/landing')}}/img/product/15.png" alt="Image"></a>
                         <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                     </div>
                     <div class="mini-cart-info">
-                        <h6><a href="#">Portable Watch Phone with Blood Pressure Monitor OLED</a></h6>
+                        <h6><a href="#">Beard Scissors</a></h6>
                         <span class="mini-cart-quantity">1 x $15.00</span>
                     </div>
                 </div>
                 <div class="mini-cart-item clearfix">
                     <div class="mini-cart-img">
-                        <a href="#"><img src="{{url('public/landing')}}/img/product/4.jpg" alt="Image"></a>
+                        <a href="#"><img src="{{url('public/landing')}}/img/product/9.png" alt="Image"></a>
                         <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                     </div>
                     <div class="mini-cart-info">
-                        <h6><a href="#">Headphone Wireless Portable Bluetooth Headset Bass Handsfree Earph.</a></h6>
+                        <h6><a href="#">Original Smart Phone for Original for iPhone 6s</a></h6>
                         <span class="mini-cart-quantity">1 x $92.00</span>
                     </div>
                 </div>
                 <div class="mini-cart-item clearfix">
                     <div class="mini-cart-img">
-                        <a href="#"><img src="{{url('public/landing')}}/img/product/3.jpg" alt="Image"></a>
+                        <a href="#"><img src="{{url('public/landing')}}/img/product/4.png" alt="Image"></a>
                         <span class="mini-cart-item-delete"><i class="icon-cancel"></i></span>
                     </div>
                     <div class="mini-cart-info">
@@ -206,7 +207,7 @@
                             <li><a href="shop-grid.html">Product Grid</a></li>
                             <li><a href="shop-left-sidebar.html">Product Left Sidebar</a></li>
                             <li><a href="shop-right-sidebar.html">Product Right Sidebar</a></li>
-                            <li><a href="product-details.html">Product Details</a></li>
+                            <li><a href="{{url('detail')}}">Product Details</a></li>
                             <li><a href="cart.html">Cart</a></li>
                             <li><a href="wishlist.html">Wishlist</a></li>
                             <li><a href="checkout.html">Checkout</a></li>
@@ -235,7 +236,7 @@
                             <li><a href="shop-left-sidebar.html">Shop Left sidebar</a></li>
                             <li><a href="shop-right-sidebar.html">Shop right sidebar</a></li>
                             <li><a href="shop-grid.html">Shop Grid</a></li>
-                            <li><a href="product-details.html">Shop details </a></li>
+                            <li><a href="{{url('detail')}}">Shop details </a></li>
                             <li><a href="cart.html">Cart</a></li>
                             <li><a href="wishlist.html">Wishlist</a></li>
                             <li><a href="checkout.html">Checkout</a></li>
@@ -300,12 +301,12 @@
                 <div class="col-lg-12">
                     <div class="ltn__breadcrumb-inner ltn__breadcrumb-inner-4 justify-content-between">
                         <div class="section-title-area">
-                            <h1 class="section-title white-color">Product Details</h1>
+                            <h1 class="section-title white-color">Shop</h1>
                         </div>
                         <div class="ltn__breadcrumb-list" style="color: white;">
                             <ul>
-                                <li><a href="index.html" style="color: grey;">Home</a></li>
-                                <li style="color: white;">Product Details</li>
+                                <li><a href="index.html">Home</a></li>
+                                <li style="color: white;">Shop</li>
                             </ul>
                         </div>
                     </div>
@@ -315,388 +316,35 @@
     </div>
     <!-- BREADCRUMB AREA END -->
 
-    <!-- SHOP DETAILS AREA START -->
-    <div class="ltn__shop-details-area pb-85">
+    <!-- Gallery area start -->
+    <div class="ltn__gallery-area mb-120  mt--10">
         <div class="container">
             <div class="row">
-                <div class="col-lg-8 col-md-12">
-                    <div class="ltn__shop-details-inner mb-60">
-                        <div class="row">
-                            <div class="col-md-6">
-                                <div class="ltn__shop-details-img-gallery">
-                                    <div class="ltn__shop-details-large-img">
-                                        <div class="single-large-img">
-                                            <a href="{{url('public/landing')}}/img/product/1.jpg" data-rel="lightcase:myCollection">
-                                                <img src="{{url('public/landing')}}/img/product/1.jpg" alt="Image">
-                                            </a>
-                                        </div>
-                                        <div class="single-large-img">
-                                            <a href="{{url('public/landing')}}/img/product/2.jpg" data-rel="lightcase:myCollection">
-                                                <img src="{{url('public/landing')}}/img/product/2.jpg" alt="Image">
-                                            </a>
-                                        </div>
-                                        <div class="single-large-img">
-                                            <a href="{{url('public/landing')}}/img/product/3.jpg" data-rel="lightcase:myCollection">
-                                                <img src="{{url('public/landing')}}/img/product/3.jpg" alt="Image">
-                                            </a>
-                                        </div>
-                                        <div class="single-large-img">
-                                            <a href="{{url('public/landing')}}/img/product/4.jpg" data-rel="lightcase:myCollection">
-                                                <img src="{{url('public/landing')}}/img/product/4.jpg" alt="Image">
-                                            </a>
-                                        </div>
-                                        <div class="single-large-img">
-                                            <a href="{{url('public/landing')}}/img/product/5.jpg" data-rel="lightcase:myCollection">
-                                                <img src="{{url('public/landing')}}/img/product/5.jpg" alt="Image">
-                                            </a>
-                                        </div>
-                                    </div>
-                                    <div class="ltn__shop-details-small-img slick-arrow-2">
-                                        <div class="single-small-img">
-                                            <img src="{{url('public/landing')}}/img/product/1.jpg" alt="Image">
-                                        </div>
-                                        <div class="single-small-img">
-                                            <img src="{{url('public/landing')}}/img/product/2.jpg" alt="Image">
-                                        </div>
-                                        <div class="single-small-img">
-                                            <img src="{{url('public/landing')}}/img/product/3.jpg" alt="Image">
-                                        </div>
-                                        <div class="single-small-img">
-                                            <img src="{{url('public/landing')}}/img/product/4.jpg" alt="Image">
-                                        </div>
-                                        <div class="single-small-img">
-                                            <img src="{{url('public/landing')}}/img/product/5.jpg" alt="Image">
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-md-6">
-                                <div class="modal-product-info shop-details-info pl-0">
-                                    <div class="product-ratting">
-                                        <ul>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                            <li class="review-total"> <a href="#"> ( 95 Reviews )</a></li>
-                                        </ul>
-                                    </div>
-                                    <h3>Smart Mobile Phone 7/7plus/8/8plus/X/Xr W </h3>
-                                    <div class="product-price">
-                                        <span>$49.00</span>
-                                        <del>$65.00</del>
-                                    </div>
-                                    <div class="modal-product-meta ltn__product-details-menu-1">
-                                        <ul>
-                                            <li>
-                                                <strong>Categories:</strong> 
-                                                <span>
-                                                    <a href="#">Beard</a>
-                                                    <a href="#">Oil</a>
-                                                    <a href="#">Grooming</a>
-                                                    <a href="#">Tools</a>
-                                                </span>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="ltn__product-details-menu-2">
-                                        <ul>
-                                            <li>
-                                                <div class="cart-plus-minus">
-                                                    <input type="text" value="01" name="qtybutton" class="cart-plus-minus-box">
-                                                </div>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="theme-btn-1 btn btn-effect-1" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
-                                                    <i class="fas fa-shopping-cart"></i>
-                                                    <span>ADD TO CART</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="ltn__product-details-menu-3">
-                                        <ul>
-                                            <li>
-                                                <a href="#" class="" title="Wishlist" data-toggle="modal" data-target="#liton_wishlist_modal">
-                                                    <i class="far fa-heart"></i>
-                                                    <span>Add to Wishlist</span>
-                                                </a>
-                                            </li>
-                                            <li>
-                                                <a href="#" class="" title="Compare" data-toggle="modal" data-target="#quick_view_modal">
-                                                    <i class="fas fa-exchange-alt"></i>
-                                                    <span>Compare</span>
-                                                </a>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <hr>
-                                    <div class="ltn__social-media">
-                                        <ul>
-                                            <li>Share:</li>
-                                            <li><a href="#" title="Facebook"><i class="fab fa-facebook-f"></i></a></li>
-                                            <li><a href="#" title="Twitter"><i class="fab fa-twitter"></i></a></li>
-                                            <li><a href="#" title="Linkedin"><i class="fab fa-linkedin"></i></a></li>
-                                            <li><a href="#" title="Instagram"><i class="fab fa-instagram"></i></a></li>
-                                            
-                                        </ul>
-                                    </div>
-                                    <hr>
-                                    <div class="ltn__safe-checkout">
-                                        <h5>Guaranteed Safe Checkout</h5>
-                                        <img src="{{url('public/landing')}}/img/icons/payment-2.png" alt="Payment Image">
-                                    </div>
-                                </div>
-                            </div>
+                <div class="col-lg-12">
+                    <div class="section-title-area text-center">
+                        <h1 class="section-title ">Our Products</h1>
+                        <p>20% OFF WITH CODE CYBERMONDAY</p>
+                    </div>
+                    <div class="ltn__gallery-menu">
+                        <div class="ltn__gallery-filter-menu portfolio-filter text-uppercase text-center mb-50">
+                            <button data-filter="*" class="active">all</button>
+                            <button data-filter=".filter_category_1">Handphone</button>
+                            <button data-filter=".filter_category_2">Computer</button>
+                            <button data-filter=".filter_category_3">Headphone</button>
                         </div>
                     </div>
-                    <!-- Shop Tab Start -->
-                    <div class="ltn__shop-details-tab-inner ltn__shop-details-tab-inner-2">
-                        <div class="ltn__shop-details-tab-menu">
-                            <div class="nav">
-                                <a class="active show" data-toggle="tab" href="#liton_tab_details_1_1">Description</a>
-                                <a data-toggle="tab" href="#liton_tab_details_1_2" class="">Reviews</a>
-                            </div>
-                        </div>
-                        <div class="tab-content">
-                            <div class="tab-pane fade active show" id="liton_tab_details_1_1">
-                                <div class="ltn__shop-details-tab-content-inner">
-                                    <h4 class="title-2">Lorem ipsum dolor sit amet elit.</h4>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p> 
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
-                                </div>
-                            </div>
-                            <div class="tab-pane fade" id="liton_tab_details_1_2">
-                                <div class="ltn__shop-details-tab-content-inner">
-                                    <h4 class="title-2">Customer Reviews</h4>
-                                    <div class="product-ratting">
-                                        <ul>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                            <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                            <li class="review-total"> <a href="#"> ( 95 Reviews )</a></li>
-                                        </ul>
-                                    </div>
-                                    <hr>
-                                    <!-- comment-area -->
-                                    <div class="ltn__comment-area mb-30">
-                                        <div class="ltn__comment-inner">
-                                            <ul>
-                                                <li>
-                                                    <div class="ltn__comment-item clearfix">
-                                                        <div class="ltn__commenter-img">
-                                                            <img src="{{url('public/landing')}}/img/team/1.jpg" alt="Image">
-                                                        </div>
-                                                        <div class="ltn__commenter-comment">
-                                                            <h6><a href="#">Adam Smit</a></h6>
-                                                            <div class="product-ratting">
-                                                                <ul>
-                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, omnis fugit corporis iste magnam ratione.</p>
-                                                            <span class="ltn__comment-reply-btn">September 3, 2020</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="ltn__comment-item clearfix">
-                                                        <div class="ltn__commenter-img">
-                                                            <img src="{{url('public/landing')}}/img/team/3.jpg" alt="Image">
-                                                        </div>
-                                                        <div class="ltn__commenter-comment">
-                                                            <h6><a href="#">Adam Smit</a></h6>
-                                                            <div class="product-ratting">
-                                                                <ul>
-                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, omnis fugit corporis iste magnam ratione.</p>
-                                                            <span class="ltn__comment-reply-btn">September 2, 2020</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                                <li>
-                                                    <div class="ltn__comment-item clearfix">
-                                                        <div class="ltn__commenter-img">
-                                                            <img src="{{url('public/landing')}}/img/team/2.jpg" alt="Image">
-                                                        </div>
-                                                        <div class="ltn__commenter-comment">
-                                                            <h6><a href="#">Adam Smit</a></h6>
-                                                            <div class="product-ratting">
-                                                                <ul>
-                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                                </ul>
-                                                            </div>
-                                                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus, omnis fugit corporis iste magnam ratione.</p>
-                                                            <span class="ltn__comment-reply-btn">September 2, 2020</span>
-                                                        </div>
-                                                    </div>
-                                                </li>
-                                            </ul>
-                                        </div>
-                                    </div>
-                                    <!-- comment-reply -->
-                                    <div class="ltn__comment-reply-area ltn__form-box mb-30">
-                                        <form action="#">
-                                            <h4 class="title-2">Add a Review</h4>
-                                            <div class="mb-30">
-                                                <div class="add-a-review">
-                                                    <h6>Your Ratings:</h6>
-                                                    <div class="product-ratting">
-                                                        <ul>
-                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                            <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                            <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                        </ul>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                            <div class="input-item input-item-textarea ltn__custom-icon">
-                                                <textarea placeholder="Type your comments...."></textarea>
-                                            </div>
-                                            <div class="input-item input-item-name ltn__custom-icon">
-                                                <input type="text" placeholder="Type your name....">
-                                            </div>
-                                            <div class="input-item input-item-email ltn__custom-icon">
-                                                <input type="email" placeholder="Type your email....">
-                                            </div>
-                                            <div class="input-item input-item-website ltn__custom-icon">
-                                                <input type="text" name="website" placeholder="Type your website....">
-                                            </div>
-                                            <label class="mb-0"><input type="checkbox" name="agree"> Save my name, email, and website in this browser for the next time I comment.</label>
-                                            <div class="btn-wrapper">
-                                                <button class="btn theme-btn-1 btn-effect-1 text-uppercase" type="submit">Submit</button>
-                                            </div>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Shop Tab End -->
-                </div>
-                <div class="col-lg-4">
-                    <aside class="sidebar ltn__shop-sidebar ltn__right-sidebar">
-                        <!-- Top Rated Product Widget -->
-                        <div class="widget ltn__top-rated-product-widget">
-                            <h4 class="ltn__widget-title">Top Rated Product</h4>
-                            <ul>
-                                <li>
-                                    <div class="top-rated-product-item clearfix">
-                                        <div class="top-rated-product-img">
-                                            <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/1.png" alt="#"></a>
-                                        </div>
-                                        <div class="top-rated-product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h6><a href="product-details.html">Beard Facewash</a></h6>
-                                            <div class="product-price">
-                                                <span>$49.00</span>
-                                                <del>$65.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="top-rated-product-item clearfix">
-                                        <div class="top-rated-product-img">
-                                            <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/2.png" alt="#"></a>
-                                        </div>
-                                        <div class="top-rated-product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h6><a href="product-details.html">Beard Growth Vitamins</a></h6>
-                                            <div class="product-price">
-                                                <span>$49.00</span>
-                                                <del>$65.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                                <li>
-                                    <div class="top-rated-product-item clearfix">
-                                        <div class="top-rated-product-img">
-                                            <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/3.png" alt="#"></a>
-                                        </div>
-                                        <div class="top-rated-product-info">
-                                            <div class="product-ratting">
-                                                <ul>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                                </ul>
-                                            </div>
-                                            <h6><a href="product-details.html">Beard Shampoo</a></h6>
-                                            <div class="product-price">
-                                                <span>$49.00</span>
-                                                <del>$65.00</del>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </li>
-                            </ul>
-                        </div>
-                        <!-- Banner Widget -->
-                        <div class="widget ltn__banner-widget">
-                            <a href="shop.html"><img src="{{url('public/landing')}}/img/banner/12.png" alt="#"></a>
-                        </div>
-                    </aside>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- SHOP DETAILS AREA END -->
+            <!-- Portfolio Wrapper Start -->
+            <!-- (ltn__gallery-info-hide) Class for 'ltn__gallery-item-info' not showing -->
+            <div class="ltn__gallery-active row ltn__gallery-style-2 ltn__gallery-info-hide---">
+                <div class="ltn__gallery-sizer col-1"></div>
 
-    <!-- PRODUCT SLIDER AREA START -->
-    <div class="ltn__product-slider-area pb-70">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="section-title-area">
-                        <h1 class="section-title">Related Products<span>.</span></h1>
-                    </div>
-                </div>
-            </div>
-            <div class="row ltn__related-product-slider-one-active slick-arrow-1">
-                <!-- ltn__product-item -->
-                <div class="col-lg-12">
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3 col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="ltn__product-item ltn__product-item-3 text-center">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/7.png" alt="#"></a>
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
                             <div class="product-badge">
                                 <ul>
                                     <li class="sale-badge">New</li>
@@ -714,24 +362,11 @@
                                             <i class="fas fa-shopping-cart"></i>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="#" title="Wishlist" data-toggle="modal" data-target="#liton_wishlist_modal">
-                                            <i class="far fa-heart"></i></a>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-info">
-                            <div class="product-ratting">
-                                <ul>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <h2 class="product-title"><a href="product-details.html">Beard Shampoo</a></h2>
+                            <h2 class="product-title"><a href="{{url('detail')}}">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W</a></h2>
                             <div class="product-price">
                                 <span>$149.00</span>
                                 <del>$162.00</del>
@@ -739,11 +374,11 @@
                         </div>
                     </div>
                 </div>
-                <!-- ltn__product-item -->
-                <div class="col-lg-12">
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_2  col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="ltn__product-item ltn__product-item-3 text-center">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/8.png" alt="#"></a>
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/2.jpg" alt="#"></a>
                             <div class="product-hover-action">
                                 <ul>
                                     <li>
@@ -756,36 +391,23 @@
                                             <i class="fas fa-shopping-cart"></i>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="#" title="Wishlist" data-toggle="modal" data-target="#liton_wishlist_modal">
-                                            <i class="far fa-heart"></i></a>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-info">
-                            <div class="product-ratting">
-                                <ul>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <h2 class="product-title"><a href="product-details.html">Beard Growth Oil</a></h2>
+                            <h2 class="product-title"><a href="{{url('detail')}}">Samsung C49J89: £875, Debenhams Plus</a></h2>
                             <div class="product-price">
-                                <span>$62.00</span>
-                                <del>$85.00</del>
+                                <span>$129.00</span>
+                                <del>$145.00</del>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- ltn__product-item -->
-                <div class="col-lg-12">
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_1  col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="ltn__product-item ltn__product-item-3 text-center">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/9.png" alt="#"></a>
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/3.jpg" alt="#"></a>
                             <div class="product-badge">
                                 <ul>
                                     <li class="sale-badge">New</li>
@@ -803,36 +425,22 @@
                                             <i class="fas fa-shopping-cart"></i>
                                         </a>
                                     </li>
-                                    <li>
-                                        <a href="#" title="Wishlist" data-toggle="modal" data-target="#liton_wishlist_modal">
-                                            <i class="far fa-heart"></i></a>
-                                    </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-info">
-                            <div class="product-ratting">
-                                <ul>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <h2 class="product-title"><a href="product-details.html">Beard Care Oil</a></h2>
+                            <h2 class="product-title"><a href="{{url('detail')}}">Capacitive 22 Inch LCD Display Monitor</a></h2>
                             <div class="product-price">
-                                <span>$75.00</span>
-                                <del>$92.00</del>
+                                <span>$119.00</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- ltn__product-item -->
-                <div class="col-lg-12">
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3  col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="ltn__product-item ltn__product-item-3 text-center">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/10.png" alt="#"></a>
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/4.jpg" alt="#"></a>
                             <div class="product-hover-action">
                                 <ul>
                                     <li>
@@ -845,36 +453,52 @@
                                             <i class="fas fa-shopping-cart"></i>
                                         </a>
                                     </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-title"><a href="{{url('detail')}}">Headphone Wireless Portable Bluetooth Headset Bass Handsfree Earph.</a></h2>
+                            <div class="product-price">
+                                <span>$125.00</span>
+                                <del>$140.00</del>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_2  col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                        <div class="product-img">
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/5.jpg" alt="#"></a>
+                            <div class="product-hover-action">
+                                <ul>
                                     <li>
-                                        <a href="#" title="Wishlist" data-toggle="modal" data-target="#liton_wishlist_modal">
-                                            <i class="far fa-heart"></i></a>
+                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-info">
-                            <div class="product-ratting">
-                                <ul>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <h2 class="product-title"><a href="product-details.html">Beard Facewash</a></h2>
+                            <h2 class="product-title"><a href="{{url('detail')}}">Original Smart Phone for Original for iPhone 6s</a></h2>
                             <div class="product-price">
-                                <span>$78.00</span>
-                                <del>$85.00</del>
+                                <span>$165.00</span>
+                                <del>$185.00</del>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- ltn__product-item -->
-                <div class="col-lg-12">
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_1  col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="ltn__product-item ltn__product-item-3 text-center">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/5.png" alt="#"></a>
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
                             <div class="product-badge">
                                 <ul>
                                     <li class="sale-badge">New</li>
@@ -892,36 +516,80 @@
                                             <i class="fas fa-shopping-cart"></i>
                                         </a>
                                     </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-title"><a href="{{url('detail')}}">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W</a></h2>
+                            <div class="product-price">
+                                <span>$149.00</span>
+                                <del>$162.00</del>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3  col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                        <div class="product-img">
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/2.jpg" alt="#"></a>
+                            <div class="product-hover-action">
+                                <ul>
                                     <li>
-                                        <a href="#" title="Wishlist" data-toggle="modal" data-target="#liton_wishlist_modal">
-                                            <i class="far fa-heart"></i></a>
+                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-info">
-                            <div class="product-ratting">
-                                <ul>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <h2 class="product-title"><a href="product-details.html">Coil Spring Conversion Kit</a></h2>
+                            <h2 class="product-title"><a href="{{url('detail')}}">Samsung C49J89: £875, Debenhams Plus</a></h2>
                             <div class="product-price">
-                                <span>$150.00</span>
-                                <del>$180.00</del>
+                                <span>$129.00</span>
+                                <del>$145.00</del>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!-- ltn__product-item -->
-                <div class="col-lg-12">
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_2  col-lg-3 col-md-4 col-sm-6 col-12">
                     <div class="ltn__product-item ltn__product-item-3 text-center">
                         <div class="product-img">
-                            <a href="product-details.html"><img src="{{url('public/landing')}}/img/product/6.png" alt="#"></a>
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/3.jpg" alt="#"></a>
+                            <div class="product-hover-action">
+                                <ul>
+                                    <li>
+                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-title"><a href="{{url('detail')}}">Capacitive 22 Inch LCD Display Monitor</a></h2>
+                            <div class="product-price">
+                                <span>$119.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_1  col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                        <div class="product-img">
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/4.jpg" alt="#"></a>
                             <div class="product-badge">
                                 <ul>
                                     <li class="sale-badge">New</li>
@@ -939,36 +607,268 @@
                                             <i class="fas fa-shopping-cart"></i>
                                         </a>
                                     </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-title"><a href="{{url('detail')}}">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W</a></h2>
+                            <div class="product-price">
+                                <span>$149.00</span>
+                                <del>$162.00</del>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3  col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                        <div class="product-img">
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/5.jpg" alt="#"></a>
+                            <div class="product-hover-action">
+                                <ul>
                                     <li>
-                                        <a href="#" title="Wishlist" data-toggle="modal" data-target="#liton_wishlist_modal">
-                                            <i class="far fa-heart"></i></a>
+                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>
                         </div>
                         <div class="product-info">
-                            <div class="product-ratting">
-                                <ul>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star"></i></a></li>
-                                    <li><a href="#"><i class="fas fa-star-half-alt"></i></a></li>
-                                    <li><a href="#"><i class="far fa-star"></i></a></li>
-                                </ul>
-                            </div>
-                            <h2 class="product-title"><a href="product-details.html">OE Replica Wheels</a></h2>
+                            <h2 class="product-title"><a href="{{url('detail')}}">Samsung C49J89: £875, Debenhams Plus</a></h2>
                             <div class="product-price">
-                                <span>$150.00</span>
-                                <del>$180.00</del>
+                                <span>$129.00</span>
+                                <del>$145.00</del>
                             </div>
                         </div>
                     </div>
                 </div>
-                <!--  -->
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_2  col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                        <div class="product-img">
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
+                            <div class="product-badge">
+                                <ul>
+                                    <li class="sale-badge">New</li>
+                                </ul>
+                            </div>
+                            <div class="product-hover-action">
+                                <ul>
+                                    <li>
+                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-title"><a href="{{url('detail')}}">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W</a></h2>
+                            <div class="product-price">
+                                <span>$149.00</span>
+                                <del>$162.00</del>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_1  col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                        <div class="product-img">
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/2.jpg" alt="#"></a>
+                            <div class="product-badge">
+                                <ul>
+                                    <li class="sale-badge">New</li>
+                                </ul>
+                            </div>
+                            <div class="product-hover-action">
+                                <ul>
+                                    <li>
+                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-title"><a href="{{url('detail')}}">Capacitive 22 Inch LCD Display Monitor</a></h2>
+                            <div class="product-price">
+                                <span>$119.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3 col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                        <div class="product-img">
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/3.jpg" alt="#"></a>
+                            <div class="product-badge">
+                                <ul>
+                                    <li class="sale-badge">New</li>
+                                </ul>
+                            </div>
+                            <div class="product-hover-action">
+                                <ul>
+                                    <li>
+                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-title"><a href="{{url('detail')}}">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W</a></h2>
+                            <div class="product-price">
+                                <span>$149.00</span>
+                                <del>$162.00</del>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_2  col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                        <div class="product-img">
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/4.jpg" alt="#"></a>
+                            <div class="product-hover-action">
+                                <ul>
+                                    <li>
+                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-title"><a href="{{url('detail')}}">Samsung C49J89: £875, Debenhams Plus</a></h2>
+                            <div class="product-price">
+                                <span>$129.00</span>
+                                <del>$145.00</del>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_1  col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                        <div class="product-img">
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/5.jpg" alt="#"></a>
+                            <div class="product-badge">
+                                <ul>
+                                    <li class="sale-badge">New</li>
+                                </ul>
+                            </div>
+                            <div class="product-hover-action">
+                                <ul>
+                                    <li>
+                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-title"><a href="{{url('detail')}}">Capacitive 22 Inch LCD Display Monitor</a></h2>
+                            <div class="product-price">
+                                <span>$119.00</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- gallery-item -->
+                <div class="ltn__gallery-item filter_category_3  col-lg-3 col-md-4 col-sm-6 col-12">
+                    <div class="ltn__product-item ltn__product-item-3 text-center">
+                        <div class="product-img">
+                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
+                            <div class="product-hover-action">
+                                <ul>
+                                    <li>
+                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                            <i class="far fa-eye"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
+                                            <i class="fas fa-shopping-cart"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                            <h2 class="product-title"><a href="{{url('detail')}}">Headphone Wireless Portable Bluetooth Headset Bass Handsfree Earph.</a></h2>
+                            <div class="product-price">
+                                <span>$125.00</span>
+                                <del>$140.00</del>
+                            </div>
+                        </div>
+                    </div>
+                </div>              
             </div>
+
+            <div class="btn-wrapper text-center">
+                <a href="#" class="btn btn-transparent btn-effect-3 btn-border">LOAD MORE +</a>
+            </div>
+
+            <!-- pagination start -->
+            <!-- 
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="ltn__pagination text-center margin-top-50">
+                        <ul>
+                            <li class="arrow-icon"><a href="#"> &leftarrow; </a></li>
+                            <li class="active"><a href="blog.html">1</a></li>
+                            <li><a href="blog-2.html">2</a></li>
+                            <li><a href="blog-2.html">3</a></li>
+                            <li><a href="blog-2.html">...</a></li>
+                            <li><a href="blog-2.html">10</a></li>
+                            <li class="arrow-icon"><a href="#"> &rightarrow; </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            -->
+            <!-- pagination end -->
+
         </div>
     </div>
-    <!-- PRODUCT SLIDER AREA END -->
+    <!-- Gallery area end -->
 
     <!-- FEATURE AREA START ( Feature - 3) -->
     <div class="ltn__feature-area before-bg-bottom before-bg-bottom-2 plr--5">
@@ -1246,10 +1146,10 @@
                                 <div class="row">
                                     <div class="col-12">
                                         <div class="modal-product-img">
-                                            <img src="{{url('public/landing')}}/img/product/1.png" alt="#">
+                                            <img src="{{url('public/landing')}}/img/product/1.jpg" alt="#">
                                         </div>
                                          <div class="modal-product-info">
-                                            <h5><a href="product-details.html">Brand new product</a></h5>
+                                            <h5><a href="{{url('detail')}}">Brand new product</a></h5>
                                             <p class="added-cart"><i class="fa fa-check-circle"></i>  Successfully added to your Cart</p>
                                             <div class="btn-wrapper">
                                                 <a href="cart.html" class="theme-btn-1 btn btn-effect-1">View Cart</a>
@@ -1293,7 +1193,7 @@
                                             <img src="{{url('public/landing')}}/img/product/7.png" alt="#">
                                         </div>
                                          <div class="modal-product-info">
-                                            <h5><a href="product-details.html">Brand new product</a></h5>
+                                            <h5><a href="{{url('detail')}}">Brand new product</a></h5>
                                             <p class="added-cart"><i class="fa fa-check-circle"></i>  Successfully added to your Wishlist</p>
                                             <div class="btn-wrapper">
                                                 <a href="wishlist.html" class="theme-btn-1 btn btn-effect-1">View Wishlist</a>

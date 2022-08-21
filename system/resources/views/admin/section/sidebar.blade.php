@@ -65,7 +65,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a href="#" class="nav-link">
+            <a href="{{url('promo')}}" class="nav-link {{checkRouteActive('promo')}}">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Promo
@@ -82,13 +82,13 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('pelanggan')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Pelanggan</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{url('supplier')}}" class="nav-link">
                   <i class="far fa-circle nav-icon"></i>
                   <p>Supplier</p>
                 </a>
