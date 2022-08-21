@@ -19,7 +19,13 @@
           <img src="{{url('public/admin')}}/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Ade Maulana Alfaqi</a>
+          <a href="#" class="d-block">
+            @if(Auth::check())
+              {{request()->user()->nama}}
+            @else
+              Silahkan Login
+            @endif
+          </a>
         </div>
       </div>
 
@@ -65,10 +71,10 @@
             </a>
         </li>
         <li class="nav-item">
-            <a href="{{url('promo')}}" class="nav-link {{checkRouteActive('promo')}}">
-              <i class="nav-icon fas fa-th"></i>
+            <a href="{{url('user')}}" class="nav-link {{checkRouteActive('user')}}">
+              <i class="nav-icon fas fa-user"></i>
               <p>
-                Promo
+                User
               </p>
             </a>
         </li>

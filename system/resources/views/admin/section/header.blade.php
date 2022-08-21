@@ -16,7 +16,11 @@
       <!-- Messages Dropdown Menu -->
       <li class="nav-item dropdown">
         <a class="nav-link" data-toggle="dropdown" href="#">
-          Ade Maulana Alfaqi
+          @if(Auth::check())
+            {{request()->user()->nama}}
+          @else
+            Silahkan Login
+          @endif
           <img src="{{url('public/admin')}}/dist/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image" style="height: 100%;">
         </a>
         <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
@@ -28,7 +32,7 @@
             <i class="fa fa-cog"></i> Setting
           </a>
           <div class="dropdown-divider"></div>
-          <a href="{{url('login')}}" class="dropdown-item">
+          <a href="{{url('logout')}}" class="dropdown-item">
            Logout
           </a>
         </div>
