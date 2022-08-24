@@ -1,6 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Models\User;
 use Auth;
 
 class AuthController extends Controller{
@@ -25,4 +26,7 @@ class AuthController extends Controller{
     function showRegister(){
         return view('register');
     }
+
+    
+
 }

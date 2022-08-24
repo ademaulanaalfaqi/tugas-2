@@ -22,6 +22,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
   <!-- Navbar -->
   @include('admin.section.header')
   <!-- /.navbar -->
+  
 
   <!-- Main Sidebar Container -->
   @include('admin.section.sidebar')

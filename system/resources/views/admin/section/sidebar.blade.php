@@ -55,7 +55,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a href="{{url('produk')}}" class="nav-link {{checkRouteActive('produk')}}">
+            <a href="{{url('admin/produk')}}" class="nav-link {{checkRouteActive('admin/produk')}}">
               <i class="nav-icon fas fa-th"></i>
               <p>
                 Produk
@@ -71,7 +71,7 @@
             </a>
         </li>
         <li class="nav-item">
-            <a href="{{url('user')}}" class="nav-link {{checkRouteActive('user')}}">
+            <a href="{{url('admin/user')}}" class="nav-link {{checkRouteActive('admin/user')}}">
               <i class="nav-icon fas fa-user"></i>
               <p>
                 User

@@ -4,10 +4,6 @@ namespace App\Http\Controllers;
 
 class AdminController extends Controller {
 
-    function showAdmin(){
-        return view('admin');
-    }
-
     function showDashboard(){
         return view('admin/dashboard');
     }
