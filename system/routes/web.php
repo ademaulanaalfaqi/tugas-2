@@ -36,6 +36,7 @@ Route::get('supplier', [AdminController::class, 'showSupplier']);
 
 
 Route::prefix('admin')->middleware('auth')->group(function(){
+    Route::post('produk/filter', [ProdukController::class, 'filter']);
     Route::resource('produk', ProdukController::class);
     Route::resource('user', UserController::class);
 });
@@ -44,6 +45,8 @@ Route::prefix('admin')->middleware('auth')->group(function(){
 // home
 Route::get('landing', [HomeController::class, 'showLanding']);
 Route::get('product', [HomeController::class, 'showProduct']);
+Route::get('product/{product}', [HomeController::class, 'showProduct']);
+Route::post('product/filter', [HomeController::class, 'filter']);
 Route::get('category', [HomeController::class, 'showCategory']);
 Route::get('detail', [HomeController::class, 'showDetail']);
 

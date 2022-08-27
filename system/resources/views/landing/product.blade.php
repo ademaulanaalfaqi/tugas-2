@@ -73,8 +73,9 @@
                                     </div>
                                 </div>
                                 <div class="header-search-1-form">
-                                    <form id="#" method="get"  action="#">
-                                        <input type="text" name="search" value="" placeholder="Search here..."/>
+                                    <form method="post"  action="{{url('product/filter')}}">
+                                    @csrf
+                                        <input type="text" name="nama" value="{{$nama ?? ""}}" placeholder="Search here..."/>
                                         <button type="submit">
                                             <span><i class="icon-search"></i></span>
                                         </button>
@@ -316,6 +317,8 @@
     </div>
     <!-- BREADCRUMB AREA END -->
 
+    
+
     <!-- Gallery area start -->
     <div class="ltn__gallery-area mb-120  mt--10">
         <div class="container">
@@ -331,507 +334,42 @@
             <!-- (ltn__gallery-info-hide) Class for 'ltn__gallery-item-info' not showing -->
             <div class="ltn__gallery-active row ltn__gallery-style-2 ltn__gallery-info-hide---">
                 <div class="ltn__gallery-sizer col-1"></div>
-
+                
                 <!-- gallery-item -->
-                <div class="ltn__gallery-item filter_category_3 col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                        <div class="product-img">
-                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
-                            <div class="product-badge">
-                                <ul>
-                                    <li class="sale-badge">New</li>
-                                </ul>
+                @foreach($list_produk as $produk)
+                    <div class="ltn__gallery-item filter_category_3 col-lg-3 col-md-4 col-sm-6 col-12">
+                        <div class="ltn__product-item ltn__product-item-3 text-center">
+                            <div class="product-img">
+                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
+                                <div class="product-badge">
+                                    <ul>
+                                        <li class="sale-badge">New</li>
+                                    </ul>
+                                </div>
+                                <div class="product-hover-action">
+                                    <ul>
+                                        <li>
+                                            <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
+                                                <i class="fas fa-shopping-cart"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
                             </div>
-                            <div class="product-hover-action">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <h2 class="product-title"><a href="{{url('detail')}}">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W</a></h2>
-                            <div class="product-price">
-                                <span>$149.00</span>
-                                <del>$162.00</del>
+                            <div class="product-info">
+                                <h2 class="product-title"><a href="{{url('detail')}}">{{$produk->nama}}</a></h2>
+                                <div class="product-price">
+                                    <span>Rp. {{number_format($produk->harga) }}</span>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
-                <!-- gallery-item -->
-                <div class="ltn__gallery-item filter_category_2  col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                        <div class="product-img">
-                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/2.jpg" alt="#"></a>
-                            <div class="product-hover-action">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <h2 class="product-title"><a href="{{url('detail')}}">Samsung C49J89: £875, Debenhams Plus</a></h2>
-                            <div class="product-price">
-                                <span>$129.00</span>
-                                <del>$145.00</del>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- gallery-item -->
-                <div class="ltn__gallery-item filter_category_1  col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                        <div class="product-img">
-                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/3.jpg" alt="#"></a>
-                            <div class="product-badge">
-                                <ul>
-                                    <li class="sale-badge">New</li>
-                                </ul>
-                            </div>
-                            <div class="product-hover-action">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <h2 class="product-title"><a href="{{url('detail')}}">Capacitive 22 Inch LCD Display Monitor</a></h2>
-                            <div class="product-price">
-                                <span>$119.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- gallery-item -->
-                <div class="ltn__gallery-item filter_category_3  col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                        <div class="product-img">
-                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/4.jpg" alt="#"></a>
-                            <div class="product-hover-action">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <h2 class="product-title"><a href="{{url('detail')}}">Headphone Wireless Portable Bluetooth Headset Bass Handsfree Earph.</a></h2>
-                            <div class="product-price">
-                                <span>$125.00</span>
-                                <del>$140.00</del>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- gallery-item -->
-                <div class="ltn__gallery-item filter_category_2  col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                        <div class="product-img">
-                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/5.jpg" alt="#"></a>
-                            <div class="product-hover-action">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <h2 class="product-title"><a href="{{url('detail')}}">Original Smart Phone for Original for iPhone 6s</a></h2>
-                            <div class="product-price">
-                                <span>$165.00</span>
-                                <del>$185.00</del>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- gallery-item -->
-                <div class="ltn__gallery-item filter_category_1  col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                        <div class="product-img">
-                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
-                            <div class="product-badge">
-                                <ul>
-                                    <li class="sale-badge">New</li>
-                                </ul>
-                            </div>
-                            <div class="product-hover-action">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <h2 class="product-title"><a href="{{url('detail')}}">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W</a></h2>
-                            <div class="product-price">
-                                <span>$149.00</span>
-                                <del>$162.00</del>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- gallery-item -->
-                <div class="ltn__gallery-item filter_category_3  col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                        <div class="product-img">
-                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/2.jpg" alt="#"></a>
-                            <div class="product-hover-action">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <h2 class="product-title"><a href="{{url('detail')}}">Samsung C49J89: £875, Debenhams Plus</a></h2>
-                            <div class="product-price">
-                                <span>$129.00</span>
-                                <del>$145.00</del>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- gallery-item -->
-                <div class="ltn__gallery-item filter_category_2  col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                        <div class="product-img">
-                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/3.jpg" alt="#"></a>
-                            <div class="product-hover-action">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <h2 class="product-title"><a href="{{url('detail')}}">Capacitive 22 Inch LCD Display Monitor</a></h2>
-                            <div class="product-price">
-                                <span>$119.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- gallery-item -->
-                <div class="ltn__gallery-item filter_category_1  col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                        <div class="product-img">
-                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/4.jpg" alt="#"></a>
-                            <div class="product-badge">
-                                <ul>
-                                    <li class="sale-badge">New</li>
-                                </ul>
-                            </div>
-                            <div class="product-hover-action">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <h2 class="product-title"><a href="{{url('detail')}}">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W</a></h2>
-                            <div class="product-price">
-                                <span>$149.00</span>
-                                <del>$162.00</del>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- gallery-item -->
-                <div class="ltn__gallery-item filter_category_3  col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                        <div class="product-img">
-                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/5.jpg" alt="#"></a>
-                            <div class="product-hover-action">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <h2 class="product-title"><a href="{{url('detail')}}">Samsung C49J89: £875, Debenhams Plus</a></h2>
-                            <div class="product-price">
-                                <span>$129.00</span>
-                                <del>$145.00</del>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- gallery-item -->
-                <div class="ltn__gallery-item filter_category_2  col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                        <div class="product-img">
-                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
-                            <div class="product-badge">
-                                <ul>
-                                    <li class="sale-badge">New</li>
-                                </ul>
-                            </div>
-                            <div class="product-hover-action">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <h2 class="product-title"><a href="{{url('detail')}}">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W</a></h2>
-                            <div class="product-price">
-                                <span>$149.00</span>
-                                <del>$162.00</del>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- gallery-item -->
-                <div class="ltn__gallery-item filter_category_1  col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                        <div class="product-img">
-                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/2.jpg" alt="#"></a>
-                            <div class="product-badge">
-                                <ul>
-                                    <li class="sale-badge">New</li>
-                                </ul>
-                            </div>
-                            <div class="product-hover-action">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <h2 class="product-title"><a href="{{url('detail')}}">Capacitive 22 Inch LCD Display Monitor</a></h2>
-                            <div class="product-price">
-                                <span>$119.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-                <!-- gallery-item -->
-                <div class="ltn__gallery-item filter_category_3 col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                        <div class="product-img">
-                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/3.jpg" alt="#"></a>
-                            <div class="product-badge">
-                                <ul>
-                                    <li class="sale-badge">New</li>
-                                </ul>
-                            </div>
-                            <div class="product-hover-action">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <h2 class="product-title"><a href="{{url('detail')}}">Smart Mobile Phone 7/7plus/8/8plus/X/Xr W</a></h2>
-                            <div class="product-price">
-                                <span>$149.00</span>
-                                <del>$162.00</del>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- gallery-item -->
-                <div class="ltn__gallery-item filter_category_2  col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                        <div class="product-img">
-                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/4.jpg" alt="#"></a>
-                            <div class="product-hover-action">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <h2 class="product-title"><a href="{{url('detail')}}">Samsung C49J89: £875, Debenhams Plus</a></h2>
-                            <div class="product-price">
-                                <span>$129.00</span>
-                                <del>$145.00</del>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- gallery-item -->
-                <div class="ltn__gallery-item filter_category_1  col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                        <div class="product-img">
-                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/5.jpg" alt="#"></a>
-                            <div class="product-badge">
-                                <ul>
-                                    <li class="sale-badge">New</li>
-                                </ul>
-                            </div>
-                            <div class="product-hover-action">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <h2 class="product-title"><a href="{{url('detail')}}">Capacitive 22 Inch LCD Display Monitor</a></h2>
-                            <div class="product-price">
-                                <span>$119.00</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- gallery-item -->
-                <div class="ltn__gallery-item filter_category_3  col-lg-3 col-md-4 col-sm-6 col-12">
-                    <div class="ltn__product-item ltn__product-item-3 text-center">
-                        <div class="product-img">
-                            <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
-                            <div class="product-hover-action">
-                                <ul>
-                                    <li>
-                                        <a href="#" title="Quick View" data-toggle="modal" data-target="#quick_view_modal">
-                                            <i class="far fa-eye"></i>
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="#" title="Add to Cart" data-toggle="modal" data-target="#add_to_cart_modal">
-                                            <i class="fas fa-shopping-cart"></i>
-                                        </a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                        <div class="product-info">
-                            <h2 class="product-title"><a href="{{url('detail')}}">Headphone Wireless Portable Bluetooth Headset Bass Handsfree Earph.</a></h2>
-                            <div class="product-price">
-                                <span>$125.00</span>
-                                <del>$140.00</del>
-                            </div>
-                        </div>
-                    </div>
-                </div>              
+                @endforeach             
             </div>
 
             <div class="btn-wrapper text-center">
@@ -859,6 +397,7 @@
             <!-- pagination end -->
 
         </div>
+        
     </div>
     <!-- Gallery area end -->
 
@@ -1035,7 +574,7 @@
                                 <div class="row">
                                     <div class="col-lg-6 col-12">
                                         <div class="modal-product-img">
-                                            <img src="{{url('public/landing')}}/img/product/4.png" alt="#">
+                                            <img src="{{url('public/landing')}}/img/product/1.jpg" alt="#">
                                         </div>
                                     </div>
                                     <div class="col-lg-6 col-12">
