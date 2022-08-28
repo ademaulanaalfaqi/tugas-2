@@ -366,6 +366,9 @@
                                 <div class="product-price">
                                     <span>Rp. {{number_format($produk->harga) }}</span>
                                 </div>
+                                <div class="product-seller" style="font-size: 12px;">
+                                    <span>Seller : {{$produk->seller->nama}}</span>
+                                </div>
                             </div>
                         </div>
                     </div>

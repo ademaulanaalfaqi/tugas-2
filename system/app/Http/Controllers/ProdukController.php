@@ -7,7 +7,8 @@ use App\Models\Produk;
 
 class ProdukController extends Controller {
     function index(){
-        $data ['list_produk'] = Produk::all();
+        $id_user = request()->user();
+        $data ['list_produk'] = $id_user->produk;
         return view('produk.index', $data);
     }
 
@@ -18,6 +19,7 @@ class ProdukController extends Controller {
     function store(){
         $produk = new Produk;
         $produk->nama = request('nama');
+        $produk->id_user = request()->user()->id;
         $produk->harga = request('harga');
         $produk->berat = request('berat');
         $produk->stok= request('stok');

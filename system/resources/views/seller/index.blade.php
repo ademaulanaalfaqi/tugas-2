@@ -18,7 +18,6 @@
                                 <th>Username</th>
                                 <th>Nama</th>
                                 <th>Email</th>
-                                <th>Produk</th>
                                 <th>No.Handphone</th>
                             </thead>
                             <tbody>
@@ -35,7 +34,6 @@
                                         <td>{{$user->username}}</td>
                                         <td>{{$user->nama}}</td>
                                         <td>{{$user->email}}</td>
-                                        <td>{{$user->produk->count()}}</td>
                                         <td>{{$user->detail->no_handphone}}</td>
                                     </tr>
                                 @endforeach
