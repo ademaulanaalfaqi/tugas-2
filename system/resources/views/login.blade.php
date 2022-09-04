@@ -47,7 +47,7 @@
                     <div class="account-login-inner">
                         @include('admin.utils.notif')
                         <form action="{{url('login')}}" method="POST" class="ltn__form-box contact-form-box">
-                            @csrf
+                        @csrf
                             <input type="text" name="email" placeholder="Email*" name="email">
                             <input type="password" name="password" placeholder="Password*" name="password">
                             <div class="btn-wrapper mt-0">

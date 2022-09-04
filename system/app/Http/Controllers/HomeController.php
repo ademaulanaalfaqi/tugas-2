@@ -18,8 +18,9 @@ class HomeController extends Controller{
         return view('landing/category');
     }
 
-    function showDetail(){
-        return view('landing/produk-detail');
+    function showDetail(Produk $produk){
+        $data ['produk'] = $produk;
+        return view('landing/produk-detail', $data);
     }
 
     function filter(){

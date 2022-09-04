@@ -49,6 +49,7 @@ Route::get('product/{product}', [HomeController::class, 'showProduct']);
 Route::post('product/filter', [HomeController::class, 'filter']);
 Route::get('category', [HomeController::class, 'showCategory']);
 Route::get('detail', [HomeController::class, 'showDetail']);
+Route::get('detail/{produk}', [HomeController::class, 'showDetail']);
 
 
 
