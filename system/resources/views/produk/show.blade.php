@@ -13,10 +13,11 @@
                         <h4>{{$produk->nama}}</h4>
                         <hr>
                         <p>
-                            Rp. {{number_format($produk->harga)}} |
+                            {{$produk->harga_string}} |
                             Stok : {{$produk->stok}} |
-                            Harga : {{$produk->berat}} gr |
-                            Seller : {{$produk->seller->nama}}
+                            Berat : {{$produk->berat}} kg |
+                            Seller : {{$produk->seller->nama}} |
+                            Tanggal Produksi: {{$produk->created_at->format("d M Y")}}
                         </p>
                         <hr>
                         <p>

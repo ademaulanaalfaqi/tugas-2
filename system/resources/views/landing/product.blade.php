@@ -276,7 +276,7 @@
                             <div class="product-info">
                                 <h2 class="product-title"><a href="{{url('detail')}}/{{$produk->id}}">{{$produk->nama}}</a></h2>
                                 <div class="product-price">
-                                    <span>Rp. {{number_format($produk->harga) }}</span>
+                                    <span>{{$produk->harga}}</span>
                                 </div>
                                 <div class="product-seller" style="font-size: 12px;">
                                     <span>Seller : {{$produk->seller->nama}}</span>

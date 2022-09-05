@@ -312,7 +312,7 @@
                                     </div>
                                     <h2>{{$produk->nama}}</h2>
                                     <div class="product-price">
-                                        <span>Rp. {{number_format($produk->harga)}}</span>
+                                        <span>{{$produk->harga}}</span>
                                     </div>
                                     <div class="modal-product-meta ltn__product-details-menu-1">
                                         <ul>

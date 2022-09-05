@@ -27,6 +27,10 @@
                                 <input type="email" class="form-control" name="email" value="{{$user->email}}">
                             </div>
                             <div class="form-group">
+                                <label for="" class="control-label">Jenis Kelamin</label>
+                                <input type="text" class="form-control" name="jenis_kelamin" value="{{$user->jenis_kelamin}}">
+                            </div>
+                            <div class="form-group">
                                 <label for="" class="control-label">Password</label>
                                 <input type="password" class="form-control" name="password">
                             </div>

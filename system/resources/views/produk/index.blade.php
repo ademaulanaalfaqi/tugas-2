@@ -64,7 +64,7 @@
                                             </div>
                                         </td>
                                         <td>{{$produk->nama}}</td>
-                                        <td>{{$produk->harga}}</td>
+                                        <td>{{$produk->harga_string}}</td>
                                         <td>{{$produk->stok}}</td>
                                     </tr>
                                 @endforeach

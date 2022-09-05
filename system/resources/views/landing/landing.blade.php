@@ -210,7 +210,7 @@
                                                 <div class="product-info">
                                                     <h2 class="product-title"><a href="{{url('detail')}}">{{$produk->nama}}</a></h2>
                                                     <div class="product-price">
-                                                        <span>{{number_format($produk->harga)}}</span>
+                                                        <span>{{$produk->harga}}</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -960,7 +960,7 @@
                                                 </div>
                                                 <h3>{{$produk->nama}}</h3>
                                                 <div class="product-price">
-                                                    <span>Rp. {{number_format($produk->harga)}}</span>
+                                                    <span>{{$produk->harga}}</span>
                                                 </div>
                                                 <div class="ltn__product-details-menu-2">
                                                     <ul>
