@@ -266,7 +266,7 @@
                     <div class="ltn__gallery-item filter_category_3 col-lg-3 col-md-4 col-sm-6 col-12">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
+                                <a href="{{url('detail')}}"><img src="{{url('public', $produk->foto)}}" alt="#"></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -276,7 +276,7 @@
                             <div class="product-info">
                                 <h2 class="product-title"><a href="{{url('detail')}}/{{$produk->id}}">{{$produk->nama}}</a></h2>
                                 <div class="product-price">
-                                    <span>{{$produk->harga}}</span>
+                                    <span>{{$produk->harga_string}}</span>
                                 </div>
                                 <div class="product-seller" style="font-size: 12px;">
                                     <span>Seller : {{$produk->seller->nama}}</span>

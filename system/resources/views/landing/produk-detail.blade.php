@@ -255,12 +255,12 @@
                                     <div class="ltn__shop-details-large-img">
                                         <div class="single-large-img">
                                             <a href="{{url('public/landing')}}/img/product/1.jpg" data-rel="lightcase:myCollection">
-                                                <img src="{{url('public/landing')}}/img/product/1.jpg" alt="Image">
+                                                <img src="{{url('public', $produk->foto)}}" alt="Image">
                                             </a>
                                         </div>
                                         <div class="single-large-img">
-                                            <a href="{{url('public/landing')}}/img/product/2.jpg" data-rel="lightcase:myCollection">
-                                                <img src="{{url('public/landing')}}/img/product/2.jpg" alt="Image">
+                                            <a href="{{url('public', $produk->foto)}}" data-rel="lightcase:myCollection">
+                                                <img src="{{url('public', $produk->foto)}}" alt="Image">
                                             </a>
                                         </div>
                                         <div class="single-large-img">
@@ -312,14 +312,14 @@
                                     </div>
                                     <h2>{{$produk->nama}}</h2>
                                     <div class="product-price">
-                                        <span>{{$produk->harga}}</span>
+                                        <span>{{$produk->harga_string}}</span>
                                     </div>
                                     <div class="modal-product-meta ltn__product-details-menu-1">
                                         <ul>
                                             <li>
                                                 <strong>Categories:</strong> 
                                                 <span>
-                                                    <a href="#">Beard</a>
+                                                    <a href="#">Handphone</a>
                                                     <a href="#">Oil</a>
                                                     <a href="#">Grooming</a>
                                                     <a href="#">Tools</a>
