@@ -56,7 +56,7 @@
 
 @endsection
 
-@push('style')
+{{-- @push('style')
     <link href="https://cdn.jsdelivr.net/npm/summernote@0.8.18/dist/summernote.min.css" rel="stylesheet">
 @endpush
 
@@ -68,4 +68,4 @@
         });
     </script>
     
-@endpush
+@endpush --}}

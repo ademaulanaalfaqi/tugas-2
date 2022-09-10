@@ -186,7 +186,7 @@
                                         <div class="col-lg-12">
                                             <div class="ltn__product-item ltn__product-item-3 text-center">
                                                 <div class="product-img">
-                                                    <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
+                                                    <a href="{{url('detail')}}"><img src="{{url('public', $produk->foto)}}" alt="#"></a>
                                                     <div class="product-badge">
                                                         <ul>
                                                             <li class="sale-badge">New</li>
@@ -208,9 +208,9 @@
                                                     </div>
                                                 </div>
                                                 <div class="product-info">
-                                                    <h2 class="product-title"><a href="{{url('detail')}}">{{$produk->nama}}</a></h2>
+                                                    <h2 class="product-title"><a href="{{url('detail')}}/{{$produk->id}}">{{$produk->nama}}</a></h2>
                                                     <div class="product-price">
-                                                        <span>{{$produk->harga}}</span>
+                                                        <span>{{$produk->harga_string}}</span>
                                                     </div>
                                                 </div>
                                             </div>
@@ -613,7 +613,7 @@
                     <div class="col-lg-12">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
                             <div class="product-img">
-                                <a href="{{url('detail')}}"><img src="{{url('public/landing')}}/img/product/1.jpg" alt="#"></a>
+                                <a href="{{url('detail')}}"><img src="{{url('public', $produk->foto)}}" alt="#"></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -635,7 +635,7 @@
                                 </div>
                             </div>
                             <div class="product-info">
-                                <h2 class="product-title"><a href="{{url('detail')}}">{{$produk->nama}}</a></h2>
+                                <h2 class="product-title"><a href="{{url('detail')}}/{{$produk->id}}">{{$produk->nama}}</a></h2>
                                 <div class="product-price">
                                     <span>{{$produk->harga_string}}</span>
                                 </div>

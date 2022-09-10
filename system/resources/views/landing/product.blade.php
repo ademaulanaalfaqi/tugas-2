@@ -265,8 +265,8 @@
                 @foreach($list_produk as $produk)
                     <div class="ltn__gallery-item filter_category_3 col-lg-3 col-md-4 col-sm-6 col-12">
                         <div class="ltn__product-item ltn__product-item-3 text-center">
-                            <div class="product-img">
-                                <a href="{{url('detail')}}"><img src="{{url('public', $produk->foto)}}" alt="#"></a>
+                            <div class="product-img mb-3" style="height: 320px;">
+                                <a href="{{url('detail')}}"><img style="height: 100%" src="{{url('public', $produk->foto)}}" alt="#"></a>
                                 <div class="product-badge">
                                     <ul>
                                         <li class="sale-badge">New</li>
@@ -284,12 +284,21 @@
                             </div>
                         </div>
                     </div>
-                @endforeach             
+                @endforeach 
+            </div>
+            <span style="font-family: arial;">
+                Showing
+                {{$list_produk->firstItem()}}
+                to
+                {{$list_produk->lastItem()}}
+                of
+                {{$list_produk->total()}}
+                entries
+            </span>
+            <div class="float-right">
+                {{$list_produk->links()}}            
             </div>
 
-            <div class="btn-wrapper text-center">
-                <a href="#" class="btn btn-transparent btn-effect-3 btn-border">LOAD MORE +</a>
-            </div>
 
             <!-- pagination start -->
             <!-- 

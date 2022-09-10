@@ -13,26 +13,7 @@
                         <form action="{{url('admin/produk/filter')}}" method="post">
                         @csrf
                             <div class="form-group">
-                                <label for="" class="label-control">Nama</label>
-                                <input type="text" class="form-control" name="nama" value="{{$nama ?? ""}}">
-                            </div>
-                            <div class="form-group">
-                                <label for="" class="label-control">Stok</label>
-                                <input type="text" class="form-control" name="stok" value="{{$stok ?? ""}}">
-                            </div>
-                            <div class="row">
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="" class="label-control">Harga Minimal</label>
-                                        <input type="text" class="form-control" name="harga_min" value="{{$harga_min ?? ""}}">
-                                    </div>
-                                </div>
-                                <div class="col-md-6">
-                                    <div class="form-group">
-                                        <label for="" class="label-control">Harga Maksimal</label>
-                                        <input type="text" class="form-control" name="harga_max" value="{{$harga_max ?? ""}}">
-                                    </div>
-                                </div>
+                                <input type="text" placeholder="Search.." class="form-control" name="nama" value="{{$nama ?? ""}}">
                             </div>
                             <button class="btn btn-dark float-right"><i class="fa fa-search"> Filter</i></button>
                         </form>

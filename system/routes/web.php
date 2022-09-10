@@ -44,6 +44,7 @@ Route::prefix('admin')->middleware('auth')->group(function(){
 
 // home
 Route::get('landing', [HomeController::class, 'showLanding']);
+Route::get('checkout', [HomeController::class, 'showCheckout']);
 Route::get('product', [HomeController::class, 'showProduct']);
 Route::get('product/{product}', [HomeController::class, 'showProduct']);
 Route::post('product/filter', [HomeController::class, 'filter']);
@@ -51,6 +52,9 @@ Route::get('category', [HomeController::class, 'showCategory']);
 Route::get('detail', [HomeController::class, 'showDetail']);
 Route::get('detail/{produk}', [HomeController::class, 'showDetail']);
 
+
+Route::get('test', [HomeController::class, 'testCollection']);
+Route::get('test-ajax', [HomeController::class, 'testAjax']);
 
 
 
